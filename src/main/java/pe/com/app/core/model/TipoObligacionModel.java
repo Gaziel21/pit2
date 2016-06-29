@@ -19,6 +19,7 @@ public class TipoObligacionModel implements Serializable {
 	private int idTipoObligacion;
 	private String descripcion;
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID_TIPO_OBLIGACION")

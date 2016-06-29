@@ -22,6 +22,7 @@ public class UsuarioRolModel implements Serializable {
 		this.idUsuario = idUsuario;
 	}
 
+	
 	@Column(name = "ID_ROL")
 	public Integer getIdUsuario() {
 		return idUsuario;

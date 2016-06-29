@@ -19,6 +19,7 @@ public class TipoPersonaModel implements Serializable {
 	private int idTipoPersona;
 	private String tipoPersona;
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID_TIPO_PERSONA")

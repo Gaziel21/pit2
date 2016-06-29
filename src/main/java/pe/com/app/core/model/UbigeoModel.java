@@ -22,6 +22,7 @@ public class UbigeoModel implements Serializable {
 	private String distritro;
 	private String descripcion;
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID_UBIGEO")

@@ -19,6 +19,7 @@ public class TipoDocumentoModel implements Serializable {
 	private int idTipoDocumento;
 	private String tipoDocumento;
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID_TIPO_DOCUMENTO")

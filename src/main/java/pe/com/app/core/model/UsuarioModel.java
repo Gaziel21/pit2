@@ -21,6 +21,7 @@ public class UsuarioModel implements Serializable {
     private String clave;
     private String estado;
 
+    
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID_USUARIO")
