@@ -14,10 +14,7 @@ Ext.define('app.configuracion.controller.UsuarioController', {
         this.callParent(arguments);
     },
     createPrincipalWindow: function (principalView) {
-        try {
-            this.principalView = Ext.widget(principalView);
-        } catch (error) {
-        }
+        this.principalView = Ext.widget(principalView);
     },
     getPrincipalView: function (principalView) {
         this.createPrincipalWindow(principalView);

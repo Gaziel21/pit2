@@ -12,11 +12,10 @@
                     "classInit": "app.configuracion.controller.UsuarioController",
                     "principalView": "UsuarioGridPanel"
                 }, {
-                    "name": "Parametros",
+                    "name": "Nacionalidad",
                     "leaf": true,
-                    
-                    "classInit": "app.configuracion.controller.AtencionController",
-                    "principalView": "AtencionGridPanel"
+                    "classInit": "app.configuracion.controller.NacionalidadController",
+                    "principalView": "NacionalidadContainer"
                 }]
         },
         {

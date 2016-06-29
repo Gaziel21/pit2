@@ -43,6 +43,7 @@
 		<property name="annotatedClasses">
 			<list>
 				<value>pe.com.app.core.model.UsuarioModel</value>
+				<value>pe.com.app.core.model.NacionalidadModel</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">

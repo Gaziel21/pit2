@@ -15,6 +15,7 @@
 		<postgresql.version>9.1-901.jdbc4</postgresql.version>
 		<jsp.api>2.0</jsp.api>
 		<mysql.version>5.1.10</mysql.version>
+		<commons.version>3.4</commons.version>
 	</properties>
 
 	<dependencies>
@@ -91,6 +92,11 @@
         <scope>provided</scope>
     </dependency>
     
+    <dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-lang3</artifactId>
+	    <version>${commons.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>

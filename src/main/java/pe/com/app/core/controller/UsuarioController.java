@@ -13,6 +13,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -24,7 +25,7 @@ import pe.com.app.core.service.UsuarioService;
 @RequestMapping(value = "/usuario")
 public class UsuarioController {
 
-	@Resource
+	@Autowired
 	private UsuarioService usuarioService;
 
 	@SuppressWarnings("unchecked")
