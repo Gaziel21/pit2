@@ -5,10 +5,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>::Sistema::</title>
         <!-- Referencia a ExtJS -->
-        <script type ="text/javascript"  src="${pageContext.request.contextPath}/extjs/4.2.1/ext-all.js"></script>
-        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/extjs/4.2.1/resources/css/ext-all.css" />
-        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/app.css" />
-
+		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/ext-all-debug.js"></script>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/extjs6/resources/css/theme-classic-all.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/app.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/icon.css"/>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/TreeCombo.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/SearchField.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/ToolbarFilter.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/UpperTextField.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/TabCloseMenu.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/ActionButtonColumn.js"></script>
     </head>
     <body>
         <script>

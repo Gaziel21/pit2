@@ -4,7 +4,10 @@ Ext.define('app.principal.store.MenuStore', {
     autoLoad: true,
     proxy: {
         type: 'ajax',
-        url: CONTEXT_PATH + '/jsp/menu/menu-administrador.json'
+        url: CONTEXT_PATH + '/jsp/menu/menu-administrador.json',
+        reader : {
+			type : 'json',
+		}
     },
     root: {
         expanded: true

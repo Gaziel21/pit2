@@ -1,11 +1,74 @@
-.icon-home{background:transparent url(../../resources/images/principal_home.png) no-repeat center center;} 
-.icon-collapse-all{background:transparent url(../../resources/images/collapse-all.gif) no-repeat center center;} 
-.icon-expand-all{background:transparent url(../../resources/images/expand-all.gif) no-repeat center center;} 
-.icon-add-btn{background:transparent url(../../resources/images/add.gif) no-repeat center center;} 
-.icon-edit-btn{background:transparent url(../../resources/images/edit.gif) no-repeat center center;} 
-.icon-delete-btn{background:transparent url(../../resources/images/delete.gif) no-repeat center center;} 
-.icon-refresh{background:transparent url(../../resources/images/refresh.png) no-repeat center center;} 
-.icon-save-btn{background:transparent url(../../resources/images/save.gif) no-repeat center center;} 
-.icon-pdfv-btn{background:transparent url(../../resources/images/pdfv.gif) no-repeat center center;} 
-.icon-webcam{background:transparent url(../../resources/images/webcam.gif) no-repeat center center;}
-.icon-modules{background:transparent url(../../resources/images/modules.png) no-repeat center center;}
+.panel-logo-body {
+	background: #FFFFFF url(../images/logo.gif) no-repeat center center;
+}
+
+.panel-login-body {
+	background: #FFFFFF;
+}
+
+/**
+* Para el Desktop
+*/
+#north .x-panel-body {
+	background: #7F99BE url(../images/region-north-bg.gif) repeat-x
+		center;
+	border: 0px;
+	color: white;
+	font-family: verdana;
+	font-weight: normal;
+	padding-top: 8px;
+}
+
+#north .x-panel-body #north-left {
+	padding-left: 8px;
+	font-size: 16px;
+}
+
+#north .x-panel-body #north-center {
+	font-size: 16px;
+	text-align: center;
+}
+
+#north .x-panel-body #north-right {
+	padding-right: 12px;
+	font-size: 14px;
+	text-align: right;
+}
+
+#north .x-panel-body #north-right a{
+	color: white;	
+}
+
+#north .x-panel-body #north-right .x-panel-body a:LINK {
+	color: white;
+}
+
+#north .x-panel-body #north-right .x-panel-body a:VISITED {
+	color: #56CCFF;
+}
+
+/**
+icono del panel oeste
+*/
+.icon-modules {	background: transparent url(../images/modules.png) no-repeat center center;}
+
+/**
+icono del panel centro
+*/
+.icon-home {	background: transparent url(../images/principal_home.png) no-repeat center center;}
+
+/**
+*menu
+*/
+.icon-collapse-all {	background: transparent url(../images/collapse-all.gif) no-repeat center center;}
+.icon-expand-all {	background: transparent url(../images/expand-all.gif) no-repeat center center;}
+.icon-report{	background: transparent url(../images/report-icon.png) no-repeat center center;}
+/*
+* modulos
+*/
+ 
+ .icon-login{	background:transparent url(../images/login.png) no-repeat center center; }
+ .icon-delete-btn{	background:transparent url(../images/delete.png) no-repeat center center; }
+ .icon-login-window{	background:transparent url(../images/login-window.png) no-repeat center center; }
+ 
+ 

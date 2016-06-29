@@ -14,6 +14,7 @@
 		<jackson.version>1.9.5</jackson.version>
 		<postgresql.version>9.1-901.jdbc4</postgresql.version>
 		<jsp.api>2.0</jsp.api>
+		<mysql.version>5.1.10</mysql.version>
 	</properties>
 
 	<dependencies>
@@ -75,6 +76,13 @@
 			<version>${postgresql.version}</version>
 		</dependency>
 		
+		<!-- MySQL -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>${mysql.version}</version>
+		</dependency>
+
 		<!-- JSP -->
 		<dependency>
         <groupId>javax.servlet</groupId>

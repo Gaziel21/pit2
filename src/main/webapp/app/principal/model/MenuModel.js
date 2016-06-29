@@ -4,7 +4,9 @@ Ext.define('app.principal.model.MenuModel', {
                  type : 'string'
          },{
                  name : 'id',
-                 type : 'int'
+                 type : 'int',
+                 convert: null
+                 
          },{
                  name : 'leaf',
                  type : 'boolean'

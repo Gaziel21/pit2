@@ -1,0 +1,165 @@
+
+.icon-add-btn{	background:transparent url(../images/add.png) no-repeat center center; }
+.icon-edit-btn{	background:transparent url(../images/edit.png) no-repeat center center; }
+.icon-delete-btn{	background:transparent url(../images/delete.png) no-repeat center center; }
+.icon-habilitado-btn{	background:transparent url(../images/true.png) no-repeat center center; }
+.icon-save-btn{	background:transparent url(../images/save.png) no-repeat center center; }
+.icon-generar-doc{	background:transparent url(../images/generar-doc.png) no-repeat center center; }
+.icon-print-document{	background:transparent url(../images/print-document.png) no-repeat center center; }
+.icon-cerrar-atencion{	background:transparent url(../images/cerrar-atencion.png) no-repeat center center; }
+.icon-generar-pdf{	background:transparent url(../images/generar-pdf.png) no-repeat center center; }
+.icon-plataforma{	background:transparent url(../images/plataforma.png) no-repeat center center; }
+.icon-bandeja-pendiente{	background:transparent url(../images/bandeja-pendiente.png) no-repeat center center; }
+.icon-login{	background:transparent url(../images/login.png) no-repeat center center; }
+.icon-logout{	background:transparent url(../images/logout.png) no-repeat center center; }
+.icon-refresh{	background:transparent url(../images/refresh.png) no-repeat center center; }
+.icon-reset-password{	background:transparent url(../images/change_password.png) no-repeat center center; }
+.icon-view-image{	background:transparent url(../images/application_view_gallery.png) no-repeat center center; }
+
+.icon-cancelado{background:transparent url(../images/cancelado.png) no-repeat center center; }
+.icon-deshabilitado{	background:transparent url(../images/deshabilitado.png) no-repeat center center; }
+.icon-habilitado{	background:transparent url(../images/habilitado.png) no-repeat center center; }
+.icon-pendiente-document{	background:transparent url(../images/pendiente-generar-document.png) no-repeat center center; }
+.icon-pendiente-menor{	background:transparent url(../images/pendiente-menor.png) no-repeat center center; }
+.icon-pendiente-pago{	background:transparent url(../images/pendiente-pago.png) no-repeat center center; }
+.icon-pendiente-participantes{	background:transparent url(../images/pendiente-participantes.png) no-repeat center center; }
+.icon-pendiente-servicio{	background:transparent url(../images/pendiente-servicio.png) no-repeat center center; }
+.icon-preview{	background:transparent url(../images/preview.png) no-repeat center center; }
+.icon-bandeja-atendido{	background:transparent url(../images/bandeja-atendido.png) no-repeat center center; }
+
+.icon-persona-add{	background:transparent url(../images/persona-add.png) no-repeat center center; }
+.icon-empresa-add{	background:transparent url(../images/empresa-add.png) no-repeat center center; }
+.icon-tipoFoliacion{	background:transparent url(../images/tipoFoliacion.png) no-repeat center center; }
+.icon-tipoPoder{	background:transparent url(../images/tipoPoder.png) no-repeat center center; }
+.icon-tipoPermiso{	background:transparent url(../images/TipoPermiso.png) no-repeat center center; }
+.icon-tipoOcurrencia{	background:transparent url(../images/tipoOcurrencia.png) no-repeat center center; }
+.icon-tipoParticipante{	background:transparent url(../images/tipoParticipante.png) no-repeat center center; }
+.icon-tipoRepresentante{	background:transparent url(../images/tipoRepresentante.png) no-repeat center center; }
+.icon-tipoDireccion{	background:transparent url(../images/tipoDireccion.png) no-repeat center center; }
+.icon-tipoRegistro{	background:transparent url(../images/tipoRegistro.gif) no-repeat center center; }
+.icon-tipoPersona{	background:transparent url(../images/tipoPersona.png) no-repeat center center; }
+.icon-edit-documento{	background:transparent url(../images/edit-documento.png) no-repeat center center; }
+.icon-generate-pdf{	background:transparent url(../images/generate-pdf.png) no-repeat center center; }
+.icon-sincronizar{	background:transparent url(../images/sincronizar.png) no-repeat center center; }
+.icon-persona-natural{	background:transparent url(../images/participante-natural.png) no-repeat center center; }
+.icon-persona-juridica{	background:transparent url(../images/persona-juridica.png) no-repeat center center; } 
+.icon-buscar-empresa{	background:transparent url(../images/buscar-empresa.png) no-repeat center center; } 
+.icon-buscar-persona{	background:transparent url(../images/buscar-persona.png) no-repeat center center; }
+.icon-empresa{	background:transparent url(../images/empresa.png) no-repeat center center; }
+.icon-representante{	background:transparent url(../images/representante.png) no-repeat center center; } 
+.icon-add-juridico{	background:transparent url(../images/add-juridico.png) no-repeat center center; }
+.icon-add-natural{	background:transparent url(../images/add-natural.png) no-repeat center center; }
+.icon-asunto{	background:transparent url(../images/asunto.png) no-repeat center center; } 
+.icon-travel{	background:transparent url(../images/travel.png) no-repeat center center; }
+
+.icon-domiciliario{	background:transparent url(../images/domiciliario.png) no-repeat center center; }
+.icon-usuario{	background:transparent url(../images/usuario.png) no-repeat center center; }
+.icon-perfil{	background:transparent url(../images/perfil.png) no-repeat center center; }
+.icon-password{	background:transparent url(../images/password.png) no-repeat center center; } 
+.icon-change-password{	background:transparent url(../images/change-password.png) no-repeat center center; }
+.icon-bitacora{	background:transparent url(../images/bitacora.png) no-repeat center center; }
+.icon-search{	background:transparent url(../images/search.png) no-repeat center center; }
+.icon-clean{	background:transparent url(../images/clean.png) no-repeat center center; }
+.icon-pdt{	background:transparent url(../images/pdt.png) no-repeat center center; }
+.icon-report{	background:transparent url(../images/report.png) no-repeat center center; }
+.icon-build{	background:transparent url(../images/build.png) no-repeat center center; }
+.icon-book{	background:transparent url(../images/book.png) no-repeat center center; }
+.icon-notarial{	background:transparent url(../images/notarial.png) no-repeat center center; }
+.icon-razon-social{	background:transparent url(../images/razon-social.png) no-repeat center center; }
+.icon-oficina-registral{	background:transparent url(../images/oficina-registral.png) no-repeat center center; }
+.icon-mensajero{	background:transparent url(../images/mensajero.png) no-repeat center center; }
+.icon-libroNotarial{	background:transparent url(../images/libro-notarial.png) no-repeat center center; }
+.icon-tipoDocumento{	background:transparent url(../images/tipo-documento.png) no-repeat center center; }
+.icon-tipoDiscapacidad{	background:transparent url(../images/tipo-discapacidad.png) no-repeat center center; }
+.icon-caja{	background:transparent url(../images/caja.png) no-repeat center center; }
+.icon-protocolar{	background:transparent url(../images/protocolar.png) no-repeat center center; }
+.icon-disabled{	background:transparent url(../images/disabled.png) no-repeat center center; }
+.icon-egreso{	background:transparent url(../images/egreso.png) no-repeat center center; }
+.icon-credito{	background:transparent url(../images/credito.png) no-repeat center center; }
+.icon-asesor-legal{	background:transparent url(../images/asesor-legal.png) no-repeat center center; }
+.icon-nota-legal{	background:transparent url(../images/nota-legal.png) no-repeat center center; }
+.icon-registro-publico{	background:transparent url(../images/registro-publico.png) no-repeat center center; }
+.icon-calificar{	background:transparent url(../images/calificar.png) no-repeat center center; }
+.icon-reporte-libro{	background:transparent url(../images/reporte-libro.png) no-repeat center center; }
+.icon-proforma{	background:transparent url(../images/proforma.png) no-repeat center center; }
+.icon-forma-pago{	background:transparent url(../images/formaPago.png) no-repeat center center; }
+.icon-concepto{	background:transparent url(../images/concepto.png) no-repeat center center; }
+.icon-banco{	background:transparent url(../images/banco.png) no-repeat center center; }
+.icon-TipoServicio{	background:transparent url(../images/TipoServicio.png) no-repeat center center; }
+.icon-TipoParentesco{	background:transparent url(../images/tipoParentesco.png) no-repeat center center; }
+.icon-EstadoCivil{	background:transparent url(../images/estadoCivil.png) no-repeat center center; }
+.icon-TipoMoneda{	background:transparent url(../images/tipoMoneda.png) no-repeat center center; }
+.icon-tipo-egreso{	background:transparent url(../images/tipo-egreso.png) no-repeat center center; }
+.icon-motivo-cambio{	background:transparent url(../images/motivo-cambio.png) no-repeat center center; }
+.icon-comprobante-pago{	background:transparent url(../images/ComprobantePago.png) no-repeat center center; }
+.icon-categoria-servicio{	background:transparent url(../images/categoriaServicio.png) no-repeat center center; }
+.icon-tipo-cambio{	background:transparent url(../images/tipoCambio.png) no-repeat center center; }
+.icon-ep-formulado{	background:transparent url(../images/ep-formulado.png) no-repeat center center; }
+.icon-ep-anulado{	background:transparent url(../images/ep-anulado.png) no-repeat center center; }
+.icon-ep-aceptado{	background:transparent url(../images/ep-aceptado.png) no-repeat center center; }
+.icon-print-recibo{	background:transparent url(../images/print-recibo.png) no-repeat center center; }
+.icon-print-boleta{	background:transparent url(../images/print-boleta.png) no-repeat center center; }
+.icon-consulta{	background:transparent url(../images/consulta.png) no-repeat center center; }
+.icon-rrpp{	background:transparent url(../images/rrpp.png) no-repeat center center; }
+.icon-computo{	background:transparent url(../images/computo.png) no-repeat center center; }
+.icon-registro{	background:transparent url(../images/registro.png) no-repeat center center; }
+.icon-autorizar{	background:transparent url(../images/autorizar.png) no-repeat center center; }
+.icon-template{	background:transparent url(../images/template.png) no-repeat center center; }
+.icon-minuta{	background:transparent url(../images/minuta.png) no-repeat center center; }
+.icon-down-minuta{	background:transparent url(../images/down-minuta.png) no-repeat center center; }
+.icon-parte{	background:transparent url(../images/parte.png) no-repeat center center; }
+.icon-vehicular{	background:transparent url(../images/vehicular.png) no-repeat center center; }
+.icon-protesto{	background:transparent url(../images/protesto.png) no-repeat center center; }
+.icon-firma{	background:transparent url(../images/firma.png) no-repeat center center; }
+.icon-Caracteristica-vehicular{	background:transparent url(../images/cambio_caracteristica.png) no-repeat center center; }
+.icon-transferencia-vehicular{	background:transparent url(../images/transferencia_vehicular.png) no-repeat center center; }
+.icon-vehicular-protocolar{	background:transparent url(../images/vehicular_protoclar.png) no-repeat center center; }
+.icon-protesto-protocolar{	background:transparent url(../images/protesto_protocolar.png) no-repeat center center; }
+.icon-parte-protocolar{	background:transparent url(../images/parte_protocolar.png) no-repeat center center; }
+.icon-generate-protocolar{	background:transparent url(../images/generate.png) no-repeat center center; }
+.icon-descargar-protocolar{	background:transparent url(../images/download.png) no-repeat center center; }
+.icon-descarg-protocolar{	background:transparent url(../images/descargar.png) no-repeat center center; }
+.icon-download{	background:transparent url(../images/descargar.png) no-repeat center center; }
+.icon-categoria{background:transparent url(../images/categoria.png) no-repeat center center; }
+.icon-parametro{background:transparent url(../images/parametro.png) no-repeat center center; }
+.icon-buscar-documento{background:transparent url(../images/page_white_magnify.png) no-repeat center center; }
+.icon-subir-archivo{background:transparent url(../images/sort_ascending.png) no-repeat center center; }
+.icon-canje{background:transparent url(../images/page_copy.png) no-repeat center center; }
+.icon-copia-certificada{background:transparent url(../images/copia-certificada.png) no-repeat center center; }
+.icon-record{background:transparent url(../images/Record.png) no-repeat center center; }
+.icon-reporte-computo{background:transparent url(../images/report-computo.png) no-repeat center center; }
+.icon-reporte-especial{background:transparent url(../images/reporte_especial.png) no-repeat center center; }
+
+.icon-borrador{background:transparent url(../images/borrador.png) no-repeat center center; }
+.icon-es_obervado{background:transparent url(../images/es_obervado.png) no-repeat center center; }
+.icon-escriturar{background:transparent url(../images/escriturar.png) no-repeat center center; }
+.icon-observado{background:transparent url(../images/observado.png) no-repeat center center; }
+.icon-traslado{background:transparent url(../images/traslado.png) no-repeat center center; }
+.icon-viaje{background:transparent url(../images/viaje.png) no-repeat center center; }
+.icon-poder{background:transparent url(../images/poder.png) no-repeat center center; }
+.icon-conductor{background:transparent url(../images/conductor.png) no-repeat center center; }
+.icon-cliente{background:transparent url(../images/cliente.png) no-repeat center center; }
+.icon-proveedor{background:transparent url(../images/proveedor.png) no-repeat center center; }
+.icon-almacen{background:transparent url(../images/almacen.png) no-repeat center center; }
+.icon-categoria-neumatico{background:transparent url(../images/categoria-nuematico.png) no-repeat center center; }
+.icon-empresa-transporte{background:transparent url(../images/empresa-transporte.png) no-repeat center center; }
+.icon-nota-ingreso{background:transparent url(../images/nota-ingreso.png) no-repeat center center; }
+.icon-producto{background:transparent url(../images/producto.png) no-repeat center center; }
+.icon-unidad-medida{background:transparent url(../images/unidad_medida.png) no-repeat center center; }
+.icon-tipo-motivo{background:transparent url(../images/tipo_motivo.png) no-repeat center center; }
+.icon-clasificacion{background:transparent url(../images/clasificacion.png) no-repeat center center; }
+.icon-marca{background:transparent url(../images/marca.png) no-repeat center center; }
+.icon-guia-remision{background:transparent url(../images/guia-remision.png) no-repeat center center; }
+.icon-comprobante{background:transparent url(../images/comprobante.png) no-repeat center center; }
+.icon-kardex{background:transparent url(../images/kardex.png) no-repeat center center; }
+.icon-cobro{background:transparent url(../images/cobro.png) no-repeat center center; }
+.icon-nota-salida{background:transparent url(../images/nota-salida.png) no-repeat center center; }
+.icon-documento-emision{background:transparent url(../images/documento-emision.png) no-repeat center center; }
+.icon-servicio{background:transparent url(../images/servicio.png) no-repeat center center; }
+.icon-unidad-transporte{background:transparent url(../images/unidad-transporte.png) no-repeat center center; }
+.icon-empresa-local{background:transparent url(../images/empresa-local.png) no-repeat center center; }
+
+
+
+
+

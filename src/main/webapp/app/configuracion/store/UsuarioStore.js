@@ -1,21 +1,15 @@
 Ext.define('app.configuracion.store.UsuarioStore', {
     extend: 'Ext.data.Store',
     model: 'app.configuracion.model.UsuarioModel',
-    autoLoad: true,
+    autoLoad: false,
     proxy: {
-        type: 'ajax',
-        actionMethods: 'POST',
-        api: {
-            read: CONTEXT_PATH + '/mvc/usuario/getAll'
-        },
-        reader: {
-            type: 'json',
-            root: 'data',
-            totalProperty: 'totalCount'
-        },
-        writer: {
-            allowSingle: true	//para solo enviar un registro al servidor y mapearlo con @RequestBody
-
-        }
+    	type : 'ajax',
+		method : 'POST',
+		url: CONTEXT_PATH+'/mvc/usuario/getAll',
+		reader: {
+			type: 'json',
+			rootProperty:'data',
+			totalProperty:'totalCount'
+		}
     }
 });

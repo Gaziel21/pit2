@@ -1,7 +1,7 @@
 Ext.define('app.configuracion.view.UsuarioGridPanel', {
     extend: 'Ext.grid.Panel',
     alias: 'widget.UsuarioGridPanel',
-    store: Ext.create('app.configuracion.store.UsuarioStore'),
+    
     title: ' Usuario',
     layout: {
         type: 'fit',
@@ -14,6 +14,7 @@ Ext.define('app.configuracion.view.UsuarioGridPanel', {
         {text: 'Correo', dataIndex: 'correo'}
     ],
     initComponent: function () {
+    	var storeCobro= Ext.create('app.configuracion.store.UsuarioStore',{autoLoad:true});
         this.tbar = [{
                 text: 'A&#241;adir',
                 iconCls: 'icon-add-btn',
@@ -28,6 +29,7 @@ Ext.define('app.configuracion.view.UsuarioGridPanel', {
                 iconCls: 'icon-refresh',
                 action: 'update'
             }];
+        this.store=storeCobro;
         this.callParent(arguments);
     }
 });
