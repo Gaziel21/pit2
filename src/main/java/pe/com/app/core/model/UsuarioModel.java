@@ -15,47 +15,47 @@ public class UsuarioModel implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	private Integer idUsuario;
-    private String usuario;
-    private String password;
-    private String correo;
+	private int idUsuario;
+    private String numUsuario;
+    private String clave;
+    private String estado;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID_USUARIO")
-    public Integer getIdUsuario() {
+    public int getIdUsuario() {
         return idUsuario;
     }
 
-    public void setIdUsuario(Integer idUsuario) {
+    public void setIdUsuario(int idUsuario) {
         this.idUsuario = idUsuario;
     }
 
-    @Column(name = "USUARIO")
+    @Column(name = "NUM_USUARIO")
     public String getUsuario() {
-        return usuario;
+        return numUsuario;
     }
 
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
+    public void setUsuario(String numUsuario) {
+        this.numUsuario= numUsuario;
     }
 
-    @Column(name = "PASSWORD")
-    public String getPassword() {
-        return password;
+    @Column(name = "CLAVE")
+    public String getClave() {
+        return clave;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setClave(String clave) {
+        this.clave= clave;
     }
 
-    @Column(name = "CORREO")
-    public String getCorreo() {
-        return correo;
+    @Column(name = "ESTADO")
+    public String getEstado() {
+        return estado;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setEstado(String estado) {
+        this.estado= estado;
     }
 
 }
