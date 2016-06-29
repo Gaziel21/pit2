@@ -1,0 +1,42 @@
+{
+    "name": ".",
+    "children": [
+        {
+            "name": "<b>Mantenimientos</b>",
+            "iconCls": "name-folder",
+            "expanded": true,
+            "children": [{
+                    "name": "Usuario",
+                    "leaf": true,
+                    "iconCls": "name",
+                    "classInit": "app.configuracion.controller.UsuarioController",
+                    "principalView": "UsuarioGridPanel"
+                }, {
+                    "name": "Parametros",
+                    "leaf": true,
+                    "iconCls": "name",
+                    "classInit": "app.configuracion.controller.AtencionController",
+                    "principalView": "AtencionGridPanel"
+                }]
+        },
+        {
+            "name": "<b>Graficas</b>",
+            "iconCls": "name-folder",
+            "expanded": true,
+            "children": [{
+                    "name": "Grafica Petroleo 1",
+                    "leaf": true,
+                    "iconCls": "name",
+                    "classInit": "controller.counter.CounterController",
+                    "principalView": "ConfiPacienteFormWindow"
+                }, {
+                    "name": "Grafica Petroleo 2",
+                    "leaf": true,
+                    "iconCls": "name",
+                    "classInit": "app.configuracion.controller.AtencionController",
+                    "principalView": "AtencionGridPanel"
+                }]
+        }
+
+    ]
+}
