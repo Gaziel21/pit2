@@ -7,21 +7,21 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "USUARIO")
 public class UsuarioModel implements Serializable {
 
-    private Integer idUsuario;
+	private static final long serialVersionUID = 1L;
+	
+	private Integer idUsuario;
     private String usuario;
     private String password;
     private String correo;
 
     @Id
-    @GeneratedValue(generator = "SECUENCIA_ID", strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name = "SECUENCIA_ID", sequenceName = "SECUENCIA_ID", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID_USUARIO")
     public Integer getIdUsuario() {
         return idUsuario;
