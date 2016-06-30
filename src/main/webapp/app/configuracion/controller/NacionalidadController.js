@@ -49,18 +49,18 @@ Ext.define('app.configuracion.controller.NacionalidadController',{
 			return;
 		}
 		var data=selection.getSelection()[0].data;
-		var idNacionalidad=data.id;
+		var idNacionalidad=data.idNacionalidad;
 		var fn=function(){
 			Ext.ComponentQuery.query('grid[name=NacionalidadGridPanel]')[0].getStore().reload();
 		};
-		var url='/flextic/Nacionalidad/delete/'+idNacionalidad;
+		var url='/mvc/nacionalidad/delete/'+idNacionalidad;
 		deleteFormulario(url,fn);
 	},
 	saveNacionalidad:function(button){
 		var win=button.up('window');
 		var formPanel=win.down('form');
 		var objTextFieldID=win.down('[name=id]');
-		var url='/flextic/Nacionalidad/saveOrUpdate';
+		var url='/mvc/nacionalidad/saveOrUpdate';
 		var fn=function(){
 			Ext.ComponentQuery.query('grid[name=NacionalidadGridPanel]')[0].getStore().reload();
 			win.close();
@@ -71,6 +71,7 @@ Ext.define('app.configuracion.controller.NacionalidadController',{
 		this.showWindowNacionalidad(button,'Agregar Nacionalidad');
 	},
 	editNacionalidad: function(button){
+		debugger;
 		var grid=button.up('grid');
 		var selection=grid.getSelectionModel();
 		if(!selection.hasSelection()){
@@ -78,10 +79,10 @@ Ext.define('app.configuracion.controller.NacionalidadController',{
 			return;
 		}
 		var data=selection.getSelection()[0].data;
-		var idNacionalidad=data.id;
+		var idNacionalidad=data.idNacionalidad;
 		var win=this.showWindowNacionalidad(button,'Editar Nacionalidad');
 		var formPanel=win.down('form');
-		var url='/flextic/Nacionalidad/edit/'+idNacionalidad;
+		var url='/mvc/nacionalidad/edit/'+idNacionalidad;
 		formLoadGET(formPanel,url);
 	},
 	showWindowNacionalidad:function(button, title){

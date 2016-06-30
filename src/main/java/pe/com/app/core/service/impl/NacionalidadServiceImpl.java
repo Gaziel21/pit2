@@ -22,4 +22,24 @@ public class NacionalidadServiceImpl implements NacionalidadService {
 		return nacionalidadDAO.getAll(pagination);
 	}
 
+	@Override
+	public NacionalidadModel saveOrUpdate(NacionalidadModel t) {
+		if(t.getIdNacionalidad()!=null && t.getIdNacionalidad()!=0){
+			this.nacionalidadDAO.update(t);
+		} else {
+			this.nacionalidadDAO.save(t);
+		}
+		return t;
+	}
+
+	@Override
+	public NacionalidadModel get(int id) {
+		return nacionalidadDAO.getById(id);
+	}
+
+	@Override
+	public void delete(int id) {
+		nacionalidadDAO.deleteById(id);
+	}
+
 }

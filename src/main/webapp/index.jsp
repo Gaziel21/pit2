@@ -15,6 +15,7 @@
 		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/UpperTextField.js"></script>
 		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/TabCloseMenu.js"></script>
 		<script type="text/javascript" src="${pageContext.request.contextPath}/extjs6/resources/ux/ActionButtonColumn.js"></script>
+		<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/general.js"></script>
     </head>
     <body>
         <script>

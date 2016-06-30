@@ -22,8 +22,7 @@ Ext.define("app.configuracion.view.NacionalidadGridPanel", {
 				},{
 					text : '<b>Eliminar</b>',
 					iconCls : 'icon-delete-btn',
-					action : 'delete',
-					hidden:true
+					action : 'delete'
 				}, '-', {
 				   fieldLabel: '<b>&nbsp;&nbsp;Buscar</b>',
 				   labelWidth: 50,

@@ -31,15 +31,12 @@ Ext.define("app.configuracion.view.NacionalidadFormWindow",{
 				 	xtype: 'panel',
 				    border:false,
 				    layout:{type:'vbox',align:'stretch'},
-				    defaults:{xtype:'uppertextfield',labelAlign:'right', flex:1, labelWidth:70},
+				    defaults:{xtype:'textfield',labelAlign:'right', flex:1, labelWidth:70},
 				    items:[
-				     {fieldLabel:'Nombre', name:'nombre'},
-				     {fieldLabel:'A. Paterno', name:'apellidoPaterno'},
-				     {fieldLabel:'A. Materno', name:'apellidoMaterno'},
-				     {fieldLabel:'Licencia', name:'licencia'}
+				     {fieldLabel:'Nacionalidad', name:'nacionalidad'}
 				    ]
 			},
-			{xtype:'hidden',name:'id'}
+			{xtype:'hidden',name:'idNacionalidad'}
 		  ]
 		}];
 		this.callParent(arguments);

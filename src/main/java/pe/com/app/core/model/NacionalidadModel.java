@@ -15,18 +15,18 @@ public class NacionalidadModel implements Serializable  {
 
 	private static final long serialVersionUID = 1L;
 	
-	private int idNacional;
+	private Integer idNacionalidad;
 	private String nacionalidad;
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID_NACIONALIDAD")
-	public int getIdNacional() {
-		return idNacional;
+	public Integer getIdNacionalidad() {
+		return idNacionalidad;
 	}
 
-	public void setIdNacional(int idNacional) {
-		this.idNacional = idNacional;
+	public void setIdNacionalidad(Integer idNacionalidad) {
+		this.idNacionalidad = idNacionalidad;
 	}
 
 	@Column(name = "NACIONALIDAD")
@@ -37,5 +37,5 @@ public class NacionalidadModel implements Serializable  {
 	public void setNacionalidad(String nacionalidad) {
 		this.nacionalidad = nacionalidad;
 	}
-
+	
 }

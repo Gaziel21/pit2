@@ -28,22 +28,46 @@ public class NacionalidadDAOHibernate implements NacionalidadDAO {
 	@Override
 	public List<NacionalidadModel> getAll(Pagination pagination) {
 		Criteria criteria = sessionFactory.getCurrentSession().createCriteria(NacionalidadModel.class);
-		//search
-		if (pagination.getSearch()!=null) {
+		// search
+		if (pagination.getSearch() != null) {
 			criteria.add(Restrictions.ilike("nacionalidad", pagination.getSearch(), MatchMode.ANYWHERE));
 		}
 		// paginacion
-		if(pagination.getPaginationActive()!=null && pagination.getPaginationActive()){
-			//Total Count
+		if (pagination.getPaginationActive() != null && pagination.getPaginationActive()) {
+			// Total Count
 			criteria.setProjection(Projections.rowCount());
 			pagination.setTotalCount(criteria.uniqueResult());
-			//Pagination
+			// Pagination
 			criteria.setProjection(null);
 			criteria.setFirstResult(Integer.parseInt(String.valueOf(pagination.getStart())));
 			criteria.setMaxResults(Integer.parseInt(String.valueOf(pagination.getLimit())));
 		}
 		criteria.addOrder(Order.asc("nacionalidad"));
 		return criteria.list();
+	}
+
+	@Override
+	@Transactional
+	public void save(NacionalidadModel nacionalidadModel) {
+		sessionFactory.getCurrentSession().save(nacionalidadModel);
+	}
+
+	@Override
+	@Transactional
+	public void update(NacionalidadModel nacionalidadModel) {
+		sessionFactory.getCurrentSession().update(nacionalidadModel);
+	}
+
+	@Override
+	@Transactional
+	public void deleteById(int id) {
+		sessionFactory.getCurrentSession().delete(this.getById(id));
+	}
+
+	@Override
+	@Transactional
+	public NacionalidadModel getById(int id) {
+		return (NacionalidadModel) sessionFactory.getCurrentSession().get(NacionalidadModel.class, id);
 	}
 
 }
